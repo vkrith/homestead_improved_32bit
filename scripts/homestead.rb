@@ -13,7 +13,7 @@ class Homestead
     config.ssh.forward_agent = true
 
     # Configure The Box
-    config.vm.box = settings["box"] ||= "antoniofrignani/laravel-homestead-settler-32"
+    config.vm.box = settings["box"] ||= "twocare/homestead-32bits"
     config.vm.box_version = settings["version"] ||= ">= 0"
     config.vm.hostname = settings["hostname"] ||= "homestead"
 
